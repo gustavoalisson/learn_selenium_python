@@ -1,3 +1,5 @@
-# learn_selenium_python
+<h1 align="center">Aprendendo Selenium com Python 👋</h1>
 
-Objetivo do repositório: Centralizar o aprendizado de Selenium para automação utilizando Python. 
+## :pushpin: Objetivo do repositório 
+
+* Centralizar o aprendizado e deixar o repositório de forma didática para quem quiser aprender Selenium utilizando a linguagem de programação Python. 
