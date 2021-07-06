@@ -20,21 +20,21 @@ list_documents_selector = ['#tree-node > ol > li > ol > li.rct-node.rct-node-par
 list_downloads_selector = ['#tree-node > ol > li > ol > li.rct-node.rct-node-parent.rct-node-expanded > ol > li:nth-child(1) > span > label',
                            '#tree-node > ol > li > ol > li.rct-node.rct-node-parent.rct-node-expanded > ol > li:nth-child(2) > span > label']
 
-# * NAVEGADOR
+# * BROWNSER
 brownser = webdriver.Chrome()
 brownser.get('https://demoqa.com/checkbox')
 brownser.maximize_window()
 
-# * SELETORES
+# * SELECTORS
 buttonView = '#tree-node > ol > li > span > button'  # SELECTOR
 
+# * GENERATE RANDOM
 selectOptions = choice(list_of_selector_1)
-
 selectOptionsDesktop = choice(list_desktop_selector)
 selectOptionsDocuments = choice(list_documents_selector)
 selectOptionsDownloads = choice(list_downloads_selector)
 
-# * ELEMENTOS
+# * ELEMENTS
 brownser.find_element_by_css_selector(buttonView).click()
 sleep(1)
 brownser.find_element_by_css_selector(selectOptions).click()
