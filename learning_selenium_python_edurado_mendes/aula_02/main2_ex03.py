@@ -22,7 +22,10 @@ def go(browser):
 browser = webdriver.Chrome()
 
 browser.get('http://selenium.dunossauro.live/aula_04_b.html')
-for text in ['um', 'dois', 'tres', 'quatro']:
+
+name_box = ['um', 'dois', 'tres', 'quatro']
+
+for text in name_box:
     sleep(1)
     find_by_text(browser, 'div', text).click()
 
